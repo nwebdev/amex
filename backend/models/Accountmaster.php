@@ -23,7 +23,7 @@ use Yii;
  * @property Bookingmaster[] $bookingmasters
  * @property Cardholder[] $cardholders
  * @property Golferlog[] $golferlogs
- * @property Learnbookingmaster[] $learnbookingmasters
+ * @property Learnbookingmaster[] $learnbookingmasters //vijenra
  */
 class Accountmaster extends \yii\db\ActiveRecord
 {
@@ -32,7 +32,7 @@ class Accountmaster extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'accountmaster';
+        return 'accountMaster';
     }
 
     /**

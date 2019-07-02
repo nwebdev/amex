@@ -21,7 +21,7 @@ class Cardtype extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'cardtype';
+        return 'CardType';
     }
 
     /**

@@ -20,7 +20,7 @@ class Cardholdertype extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'cardholdertype';
+        return 'CardHolderType';
     }
 
     /**

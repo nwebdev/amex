@@ -44,6 +44,10 @@ class CardholderController extends Controller
         ]);
     }
 
+    public function actionSoftdelete(){
+        return $this->render('__softdelete');
+    }
+
     /**
      * Displays a single Cardholder model.
      * @param integer $id
@@ -104,7 +108,10 @@ class CardholderController extends Controller
      */
     public function actionDelete($id)
     {
-        $this->findModel($id)->delete();
+        //$this->findModel($id)->delete();
+        $model = $this->findModel($id);
+        $model->IsActive=0;
+        $model->save();
 
         return $this->redirect(['index']);
     }

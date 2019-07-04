@@ -24,7 +24,7 @@ class Golfcoursetournament extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'golfcoursetournament';
+        return 'golfCourseTournament';
     }
 
     /**

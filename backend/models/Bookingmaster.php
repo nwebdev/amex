@@ -49,7 +49,7 @@ class Bookingmaster extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'bookingmaster';
+        return 'bookingMaster';
     }
 
     /**
